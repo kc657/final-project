@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kevin Chen">
+
+  <title>Learn Bluemix Now!</title>
+
+</head>
+
+<body class="mainBody" onLoad="initPage()">
+  <div class="cover">
+    <div class="container" , id="top">
+      <div class="app_container" id="body">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <h1>Voice Input</h1>
+          </div>
+        </div>
+        <div class="row">
+          <br/>
+          <div class="col-md-6">
+            <center><img id="microphone" src="icons/microphone.png"><img id="stop" src="icons/stop.png"></center>
+          </div>
+          <br/>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <center>
+              <div cols="50" class="speech-only" id="speech" readonly wrap="soft" style="height: 5.0em; ">Spoken output goes here</div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/watson-speech.js"></script>
+  <script src="js/input-speech.js"></script>
+</body>
+
+</html>
